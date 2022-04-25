@@ -1,0 +1,16 @@
+server:
+  port: 9191
+
+spring:
+  application:
+    name: material
+
+  datasource:
+    username: root
+    password: mypass
+    url: jdbc:mysql://172.25.187.240:3306/inventory_mgr
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
